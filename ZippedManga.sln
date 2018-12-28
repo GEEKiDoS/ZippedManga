@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZippedManga.Android", "ZippedManga\ZippedManga.Android\ZippedManga.Android.csproj", "{ACDD6BE1-87B1-42DA-8811-1E3B963AE043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZippedManga", "ZippedManga\ZippedManga\ZippedManga.csproj", "{2A2F49FB-27E9-4176-BE99-AAD85527EA9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACDD6BE1-87B1-42DA-8811-1E3B963AE043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDD6BE1-87B1-42DA-8811-1E3B963AE043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDD6BE1-87B1-42DA-8811-1E3B963AE043}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ACDD6BE1-87B1-42DA-8811-1E3B963AE043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDD6BE1-87B1-42DA-8811-1E3B963AE043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDD6BE1-87B1-42DA-8811-1E3B963AE043}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2A2F49FB-27E9-4176-BE99-AAD85527EA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2F49FB-27E9-4176-BE99-AAD85527EA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2F49FB-27E9-4176-BE99-AAD85527EA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2F49FB-27E9-4176-BE99-AAD85527EA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6BFF5A0-2ED4-496C-87AF-C811325ADFBC}
+	EndGlobalSection
+EndGlobal
