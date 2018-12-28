@@ -2,13 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ZippedManga"
-             x:Class="ZippedManga.MainPage">
+             xmlns:cv="clr-namespace:CardViewNetStandard;assembly=CardViewNetStandard"
+             x:Class="ZippedManga.MainPage" 
+             Title="Zipped Manga!"
+             Appearing="ContentPage_Appearing" BackgroundColor="WhiteSmoke">
+    <ScrollView Orientation="Horizontal" FlowDirection="LeftToRight">
+        <StackLayout x:Name="rootLayout" Padding="16,16" FlowDirection="LeftToRight" Orientation="Horizontal">
+            <Frame HasShadow="True" Margin="0,5,0,5" OutlineColor="White" BackgroundColor="White" HorizontalOptions="Center" Padding="0,0,0,0">
+                <RelativeLayout>
+                    <BoxView HeightRequest="200" WidthRequest="400" BackgroundColor="Accent"></BoxView>
+                    <Label Text="testshit" TextColor="White" FontSize="24"
+                           RelativeLayout.YConstraint="130" RelativeLayout.XConstraint="10"></Label>
+                    <Label Text="testshit" TextColor="White" FontSize="18"
+                           RelativeLayout.YConstraint="160" RelativeLayout.XConstraint="10"></Label>
+                </RelativeLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Select" Clicked="ToolbarItem_Clicked"></ToolbarItem>
+    </ContentPage.ToolbarItems>
 </ContentPage>
